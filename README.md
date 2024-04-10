@@ -10,19 +10,17 @@ In this machine learning pricing optimization case study, we will take the data 
 ## Dynamic Pricing Dataset
 The data is contained in three CSV files.
 
-Cafe_Sell_Meta_Data.csv This file has details about sales made by the cafe. 
+**Cafe_Sell_Meta_Data.csv** This file has details about sales made by the cafe. 
 
 Columns: Sell ID, Sell Category, Item ID, Item Name
 
-Cafe_Transaction_Store.csv This file contains information about transactions and sale receipts of the cafe.
+**Cafe_Transaction_Store.csv** This file contains information about transactions and sale receipts of the cafe.
 
 Columns: Calendar Date, Price, Quantity, Sell ID, Sell Category
 
-Cafe_Date_Info.csv This has date information corresponding to the transactions performed.
+**Cafe_Date_Info.csv** This has date information corresponding to the transactions performed.
 
 Columns: Date, Year, Holiday, Weekend, School Break, Temperature, Outdoor
-
- 
 
 Also, We will learn to fetch the data from Postgres database to python using psycopg2 library. 
 
